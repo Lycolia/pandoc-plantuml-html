@@ -18,6 +18,10 @@ Convert PlantUML embedded in Markdown to an image with Pandoc and output it to H
     -   Output file to the \<input-path>/\<input-filename>.html
 -   `./pandoc.sh <input-md-file-path> <output-html-file-path>`
 
+## Input .md sample
+
+-   [sample/sample.md](sample/sample.md)
+
 ## Thanks
 
 Imported features
