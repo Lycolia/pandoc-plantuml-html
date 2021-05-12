@@ -1,6 +1,7 @@
 # About this
 
-Convert PlantUML embedded in Markdown to an image with Pandoc and output it to HTML
+-   Convert PlantUML embedded in Markdown to an image with Pandoc and output it to HTML
+-   No assets files, output to only single HTML file
 
 ## Requirements
 
@@ -47,6 +48,11 @@ end note
 **Screenshot HTML of above**
 
 ![](README.assets/html.png)
+
+**Diagram text on HTML are selectable**
+Diagram is output in SVG and embedded in HTML
+
+![](README.assets/selectable-text.png)
 
 ## Thanks
 
