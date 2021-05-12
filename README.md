@@ -28,7 +28,7 @@
 -   [example/example.md](example/example.md)
 
 ````markdown
-# sample
+# example
 
 ```plantuml
 @startuml
