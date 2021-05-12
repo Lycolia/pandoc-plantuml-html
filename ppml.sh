@@ -14,10 +14,10 @@ inputFileNameNoExt=$(echo $1 | perl -lpe 's/^.+?\/([^\/]+)\.md$/$1/')
 
 if [ -z $srcArg ]; then
     cat <<'EOF'
-Usage: ./pandoc.sh <input-md-file-path> <output-html-file-path>'
+Usage: ./ppml.sh <input-md-file-path> <output-html-file-path>'
 Example:
-    ./pandoc.sh foo.md foo.html
-    ./pandoc.sh doc/foo.md
+    ./ppml.sh foo.md foo.html
+    ./ppml.sh doc/foo.md
         In the above, output file to the doc/foo.html
 EOF
     exit 1

@@ -17,9 +17,9 @@
 
 ## Usage
 
--   `./pandoc.sh <input-md-file-path>`
+-   `./ppml.sh <input-md-file-path>`
     -   Output file to the \<input-path>/\<input-filename>.html
--   `./pandoc.sh <input-md-file-path> <output-html-file-path>`
+-   `./ppml.sh <input-md-file-path> <output-html-file-path>`
 
 ## Format example
 
