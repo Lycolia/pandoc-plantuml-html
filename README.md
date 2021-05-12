@@ -52,6 +52,7 @@ end note
 ![](README.assets/html.png)
 
 **Diagram text on HTML are selectable**
+
 Diagram is output in SVG and embedded in HTML
 
 ![](README.assets/selectable-text.png)
