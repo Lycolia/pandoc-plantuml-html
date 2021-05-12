@@ -15,7 +15,7 @@ Convert PlantUML embedded in Markdown to an image with Pandoc and output it to H
 ## Usage
 
 -   `./pandoc.sh <input-md-file-path>`
-    -   In the above, output file to the <input-path>/<input-filename>.html
+    -   In the above, output file to the \<input-path>/\<input-filename>.html
 -   `./pandoc.sh <input-md-file-path> <output-html-file-path>`
 
 ## Thanks
