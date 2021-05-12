@@ -3,7 +3,7 @@
 ## Config
 cssPath=libs/github.css
 filterPath=libs/diagram-generator.lua
-plantumlPath="D:\\Program Area\\lang\\plantuml.jar"
+plantumlPath="C:\\pandoc\\plantuml.jar"
 javaPath="C:\\Program Files\\Java\\jre1.8.0_291\\bin\\java.exe"
 
 ## Arguments

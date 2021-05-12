@@ -61,7 +61,7 @@ Diagram is output in SVG and embedded in HTML
 Imported features
 
 -   [diagram-generator.lua](diagram-generator.lua)
-    -   [pandoc](https://github.com/pandoc/lua-filters)
+    -   [pandoc/lua-filters](https://github.com/pandoc/lua-filters)
 -   [github.css](github.css)
     -   [andyferra/github.css](https://gist.github.com/andyferra/2554919)
 
