@@ -2,6 +2,8 @@
 
 -   Convert PlantUML embedded in Markdown to an image with Pandoc and output it to HTML
 -   No assets files, output to only single HTML file
+-   Supports diagrams including Japanese and English
+    -   Can probably use any language that PlantUML supports
 
 ## Requirements
 
