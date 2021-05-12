@@ -18,9 +18,35 @@ Convert PlantUML embedded in Markdown to an image with Pandoc and output it to H
     -   Output file to the \<input-path>/\<input-filename>.html
 -   `./pandoc.sh <input-md-file-path> <output-html-file-path>`
 
-## Input .md sample
+## Format example
 
--   [sample/sample.md](sample/sample.md)
+### Input
+
+-   [example/example.md](example/example.md)
+
+````markdown
+# sample
+
+```plantuml
+@startuml
+
+Alice->Bob: Hello
+Bob->山田: ハロー
+note over Bob, 山田
+    こんにちは世界
+end note
+
+@enduml
+```
+````
+
+### Output
+
+-   [example/example.html](example/example.html)
+
+**Screenshot HTML of above**
+
+![](README.assets/2021-05-12-23-09-19.png)
 
 ## Thanks
 
@@ -30,3 +56,7 @@ Imported features
     -   [pandoc](https://github.com/pandoc/lua-filters)
 -   [github.css](github.css)
     -   [andyferra/github.css](https://gist.github.com/andyferra/2554919)
+
+```
+
+```
