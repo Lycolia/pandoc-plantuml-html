@@ -1,4 +1,4 @@
-# sample
+# example
 
 ```plantuml
 @startuml
