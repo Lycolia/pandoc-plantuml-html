@@ -15,6 +15,15 @@
 
 -   Unix shell
 
+## Config
+
+Configure following in the settings section of [ppml.sh](ppml.sh)
+
+- Executable PlantUML path
+- Executable Java path
+- Include CSS path (Optional)
+- Use Lua-Filter path (Optional)
+
 ## Usage
 
 -   `./ppml.sh <input-md-file-path>`
