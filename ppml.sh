@@ -1,15 +1,17 @@
 #!/bin/sh
 
 ## Config
-cssPath=libs/github.css
-filterPath=libs/diagram-generator.lua
+scriptPath=$(echo `dirname $0`)
+cssPath=$scriptPath/libs/github.css
+filterPath=$scriptPath/libs/diagram-generator.lua
 plantumlPath="C:\\pandoc\\plantuml.jar"
 javaPath="C:\\Program Files\\Java\\jre1.8.0_291\\bin\\java.exe"
+jsPath=$scriptPath/libs/img-to-svg.js
 
 ## Arguments
 srcArg=$1
 dstArg=$2
-inputDirPath=$(echo `dirname $0`)/$(echo $1 | perl -lpe 's/^(.+?\/)[^\/]+\.md$/$1/')
+inputDirPath=$(pwd)/$(echo $1 | perl -lpe 's/^(.+?\/)[^\/]+\.md$/$1/')
 inputFileNameNoExt=$(echo $1 | perl -lpe 's/^.+?\/([^\/]+)\.md$/$1/')
 
 if [ -z $srcArg ]; then
@@ -34,4 +36,4 @@ fi
 rm -f $outputFilePath
 
 ## Put new file
-pandoc $srcArg -t HTML5 --self-contained -s -c $cssPath -H libs/img-to-svg.js --lua-filter=$filterPath --metadata=plantumlPath:"$plantumlPath" --metadata=javaPath:"$javaPath" -o $outputFilePath
+pandoc $srcArg -t HTML5 --self-contained -s -c $cssPath -H $jsPath --lua-filter=$filterPath --metadata=plantumlPath:"$plantumlPath" --metadata=javaPath:"$javaPath" -o $outputFilePath
