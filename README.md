@@ -10,10 +10,7 @@
 -   [plantuml](https://plantuml.com/download)
 -   [pandoc](https://pandoc.org/installing.html)
 -   [Java](https://java.com/)
-
-### for Windows
-
--   Unix shell
+-   [MSYS2](https://www.msys2.org/)
 
 ## Config
 
